@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kohisong project</title>
+  </head>
+  <body>
+    <h2>Welcome to KohisongFar</h2>
+    <h1 id="gudaa">Ghana Education Service</h1>
+    <p id="demo">Hellow world</p>
+    <button onclick="myFunc()">Chainge value</button>
+    <p id="check" style="color: rgb(96, 42, 5)">check new color</p>
+    <button onclick="myColor()">my color</button>
+    <script>
+      function myFunc() {
+        document.getElementById("demo").innerHTML = "Hellow Everyone";
+        document.getElementById("gudaa").innerHTML = "I com e from Gudaayiri";
+      }
+      function myColor() {
+        document.getElementById("check").style.color = "green";
+        document.getElementById("gudaa").innerHTML = "I com e from Gudaayiri";
+      }
+      const num = 5;
+      const Num = 6;
+      const sum = num + Num;
+
+      document.write(sum);
+    </script>
+  </body>
+</html>
